@@ -2,6 +2,9 @@
 
 Fine-tune **Microsoft Phi-3-mini** with **LoRA (QLoRA)** using **[Unsloth](https://github.com/unslothai/unsloth)** to convert **natural language → SQL**.
 
+> Looking for a **PyTorch-only** (Transformers + PEFT, no Unsloth) version?  
+> See [`phi3-text-to-sql-pytorch`](https://github.com/shrinidhi-mahishi/phi3-text-to-sql-pytorch).
+
 ```
 NL question + schema
         ↓
