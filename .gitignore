@@ -1,0 +1,15 @@
+# Phi-3 LoRA / Unsloth artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+.pytest_cache/
+outputs/*
+!outputs/.gitkeep
+wandb/
+*.gguf
+*.bin
+*.safetensors
+!data/**
+.ipynb_checkpoints/
